@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main__section {
+    height: 200vh;
+
+    background: linear-gradient(124deg,  #abc900, #8df729, #b3d301, #8df729, #6bad00, #5e9701);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 15s ease infinite;
+    -z-animation: rainbow 15s ease infinite;
+    -o-animation: rainbow 15s ease infinite;
+      animation: rainbow 15s ease infinite;}
+    
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow { 
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+.first {
+    height: 100vh;
+}
+  ul {
+    margin-left: 100px;
+    padding-top: 25px;
+}
+ul li {
+    display: inline;
+}
+
+
+ul li .button {
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+.signup {
+    float: right;
+    margin-right: 100px;
+
+}
+ul li a:hover {
+    color: white;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+ul li {
+    list-style: none;
+    margin-right: 60px;
+}
+.signup_button:hover {
+    transition-property: border-color;
+    transition-duration: 500ms;
+    border-color:rgb(3, 150, 3);
+}
+.home_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 155px;
+}
+.home_section h1 {
+    font-size: 56px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+.main__overview {
+    text-align: center;
+    width: 650px;
+}
+.home_section p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.home_section a {
+    border: 1px rgb(3, 150, 3) solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color;
+    padding: 15px 45px;
+    line-height: 86px;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+    transition-duration: 500ms;
+    transition-property: background-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.home_section a:hover {
+    border: 1px white solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color, background-color, color;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+}
+.signup .signup_button {
+    border: 1px rgb(3, 150, 3) solid;
+    border-radius: 100px;
+    float: right;  
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding: 10px 45px;
+    color: rgb(3, 150, 3);
+    transition-property: background-color;
+    transition-duration: 500ms;
+}
+.signup .signup_button:hover {
+    transition-property: background-color, color, border-color;
+    transition-duration: 500ms;
+    color: rgb(3, 150, 3);
+    background-color: white;
+    border-color: white;
+}
+
+#second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1 {
+width: 40%;
+    float: right;
+
+}
+.text1 h2 {
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.text1 p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+#second {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.text_img {
+    width: 40%;
+    text-align: center;
+
+}
+.text1 a {
+    border: 1px rgb(3, 150, 3) solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color;
+    padding: 15px 45px;
+    line-height: 86px;
+    text-decoration: none;
+    color:rgb(3, 150, 3);
+    transition-duration: 500ms;
+    transition-property: background-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.text1 a:hover {
+    border: 1px white solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color, background-color, color;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+}
+#second__section {
+    height: 100vh;
+    background-color: white;
+}
+.three_cards {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    align-items: center;
+}
+
+.box {
+    padding: 10px 20px;
+    height: 450px;
+    width: 375px;
+    background-color: rgb(222, 255, 74);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.box h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: black;
+}
+.box p {
+    font-size: 18px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+}
+.box3 h2 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.box3 p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+}
+.box3 {
+    padding: 10px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    height: 450px;
+    width: 375px;
+    border-radius: 20px;
+    background: linear-gradient(124deg,  #029916, #8df729, #b3d301, #8df729, #6bad00, #5e9701);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 15s ease infinite;
+  -z-animation: rainbow 15s ease infinite;
+  -o-animation: rainbow 15s ease infinite;
+    animation: rainbow 15s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+.box img {
+    margin: 10px 10px;
+}
+.box3 img {
+    margin: 10px 10px;
+}
+#third__section {
+    height: 100vh;
+    background: linear-gradient(124deg,  #abc900, #8df729, #b3d301, #8df729, #6bad00, #5e9701);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 15s ease infinite;
+  -z-animation: rainbow 15s ease infinite;
+  -o-animation: rainbow 15s ease infinite;
+    animation: rainbow 15s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+}
+.third {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 {
+    width: 40%;
+    float: left;
+}
+.text2 h2 {
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.text2 p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.text2 a {
+    border: 1px rgb(3, 150, 3) solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color;
+    padding: 15px 45px;
+    line-height: 86px;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+    transition-duration: 500ms;
+    transition-property: background-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.text2 a:hover {
+    border: 1px white solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color, background-color, color;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+}
+#fourth__section {
+    height: 100vh;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+#fifth__section {
+    height: 70px;
+    background: linear-gradient(124deg,  #abc900, #8df729, #b3d301, #8df729, #6bad00, #5e9701);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 15s ease infinite;
+    -z-animation: rainbow 15s ease infinite;
+    -o-animation: rainbow 15s ease infinite;
+        animation: rainbow 15s ease infinite;}
+    
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow { 
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+}
+.line {
+    color: rgb(4, 112, 31);
+    border: 1px rgb(3, 150, 3) solid;
+    height: 1px;
+    width: 50px;
+}
+.shop_table {
+    display: flex;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.zone {
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    margin-top: 35px;
+    padding-top: 20px;
+    width: 300px;
+    background: linear-gradient(124deg,  #abc900, #8df729, #b3d301, #8df729, #6bad00, #5e9701);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 15s ease infinite;
+    -z-animation: rainbow 15s ease infinite;
+    -o-animation: rainbow 15s ease infinite;
+        animation: rainbow 15s ease infinite;
+    
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow { 
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+}
+.zone h3 {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.zone p {
+    font-size: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+.zone a {
+    
+    border: 1px rgb(3, 150, 3) solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color;
+    padding: 5px 15px;
+    line-height: 56px;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+    transition-duration: 500ms;
+    transition-property: background-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    
+}
+.zone a:hover {
+    border: 1px white solid;
+    border-radius: 100px;
+    transition-duration: 500ms;
+    transition-property: border-color, background-color, color;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+}
+#fifth__section ul a {
+    text-decoration: none;
+    color: rgb(3, 150, 3);
+}
+#fifth__section ul a:hover {
+    transition-duration: 500ms;
+    transition-property: color;
+    color: white;
+}
